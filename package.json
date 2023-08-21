@@ -4,7 +4,8 @@
   "description": "A blog that can allow users to create/login to their accounts and start posting as well as comment on other posts!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
