@@ -2,5 +2,14 @@
   <h2>{{name}}</h2>
   <p>{{{get_emoji}}}</p>
   <p>{{description}}</p>
+  
+  <div>
+    <form class=""> Comments</form>
+    <div class="form-group">
+        <label for="project-desc">Please Provide any feedback you would like, keep it class though.</label>
+        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+        <button>Submit Comment</button>
+      </div>
+  </div>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
 </div>
